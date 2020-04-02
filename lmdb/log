@@ -1,0 +1,6 @@
+lmdb version:LMDB 0.9.70: (December 19, 2015)
+key:/whitelist/1289242423:8080, Entry(adr.ip:10000,adr.port:8080,id:0,last_seen:0,reserved:0,ban_until:0,next_connection_attempt:0,shuffle_random:0,error:)
+key:graylist/1001433712:8080, Entry(adr.ip:1001433712,adr.port:8080,id:803130774810043859,last_seen:0,reserved:0,ban_until:0,next_connection_attempt:1526331392,shuffle_random:1582367147289459752,error:)
+key:graylist/1001816670:8080, Entry(adr.ip:1001816670,adr.port:8080,id:14801432868838423996,last_seen:0,reserved:0,ban_until:0,next_connection_attempt:1526356112,shuffle_random:945722354810973208,error:)
+key:graylist/1002235235:8080, Entry(adr.ip:1002235235,adr.port:8080,id:16730604511280254297,last_seen:0,reserved:0,ban_until:0,next_connection_attempt:1526331358,shuffle_random:1866613166547511897,error:)
+key:graylist/1002845786:8080, Entry(adr.ip:1002845786,adr.port:8080,id:17589873589762967774,last_seen:0,reserved:0,ban_until:0,next_connection_attempt:1526331394,shuffle_random:1688629904626335050,error:)

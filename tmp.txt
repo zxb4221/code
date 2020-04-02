@@ -1,0 +1,25 @@
+MySQL内存占用
+
+服务器级选项内存占用：
+1. query_cache_size
+2.innodb_additional_mem_pool_size
+3.innodb_buffer_pool_size
+4.innodb_log_buffer_size
+5.key_buffer_size
+
+总大小如下：
+select (@@query_cache_size + @@innodb_additional_mem_pool_size + @@innodb_buffer_pool_size + @@innodb_log_buffer_size + @@key_buffer_size)/(1024*1024);
+
+
+线程级选项内存占用：
+1.net_buffer_length
+2.thread_stack
+3.query_prealloc_size
+4.binlog_cache_size
+5.binlog_stmt_cache_size
+
+总大小如下：
+selec @@max_connections*(@@global.net_buffer_length + @@thread_stack + @@global.query_prealloc_size + @@binlog_cache_size + @@binlog_stmt_cache_size)/(1024*1024);
+
+android:AC
+https://www.cnblogs.com/bhlsheji/p/5362677.html

@@ -1,0 +1,3 @@
+create table stock_meta(code varchar(255) not null, name varchar(255), publish_date datetime, all_stock_count bigint, primary key(code), unique key(code))charset=utf8;
+CREATE TABLE stock_data (code varchar(255) NOT NULL,value decimal(10,2) NOT NULL,insert_date datetime NOT NULL,PRIMARY KEY (code,insert_date)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
